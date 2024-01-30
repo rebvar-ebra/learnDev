@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#tasks {
+    margin-top: 20px;
+}
+
+.task {
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.task:hover {
+    background-color: #f0f0f0;
+}
